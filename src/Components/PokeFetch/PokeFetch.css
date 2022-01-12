@@ -30,6 +30,7 @@
 
 .pokeImg {
   width: 500px;
+  filter: brightness(10%)
 }
 
 .pokeName {
@@ -38,3 +39,11 @@
   margin-top: -50px;
 }
 
+.hidePoke {
+  display: none;
+}
+
+.hidePokeImg {
+  display:block;
+  width: 500px;
+}
